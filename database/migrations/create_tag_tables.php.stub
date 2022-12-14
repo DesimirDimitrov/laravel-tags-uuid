@@ -22,7 +22,8 @@ class CreateTagTables extends Migration
         Schema::create('taggables', function (Blueprint $table) {
             $table->foreignId('tag_id')->constrained()->cascadeOnDelete();
 
-            $table->morphs('taggable');
+            $table->uuid('taggable_id')->nullable();
+            $table->string('taggable_type', 255)->nullable();
 
             $table->unique(['tag_id', 'taggable_id', 'taggable_type']);
         });
