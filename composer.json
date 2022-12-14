@@ -1,17 +1,18 @@
 {
-    "name": "spatie/laravel-tags",
-    "description": "Add tags and taggable behaviour to your Laravel app",
+    "name": "desdim/laravel-tags-uuid",
+    "description": "Add tags and taggable behaviour to your Laravel app using uuid",
     "keywords": [
         "spatie",
-        "laravel-tags"
+        "laravel-tags",
+        "uuid"
     ],
-    "homepage": "https://github.com/spatie/laravel-tags",
+    "homepage": "https://github.com/DesimirDimitrov/laravel-tags-uuid",
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Desimir Dimitrov",
+            "email": "desko007@gmail.com",
+            "homepage": "https://github.com/DesimirDimitrov/laravel-tags-uuid",
             "role": "Developer"
         }
     ],
@@ -33,7 +34,6 @@
             "Spatie\\Tags\\": "src"
         }
     },
-
     "autoload-dev": {
         "psr-4": {
             "Spatie\\Tags\\Test\\": "tests"
@@ -56,5 +56,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": false
 }
