@@ -17,8 +17,8 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "laravel/framework": "^8.67|^9.0",
+        "php": "^8.*",
+        "laravel/framework": "^8.67|^9.0|^10.0",
         "nesbot/carbon": "^2.63",
         "spatie/eloquent-sortable": "^3.10|^4.0",
         "spatie/laravel-package-tools": "^1.4",
